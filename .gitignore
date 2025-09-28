@@ -20,9 +20,6 @@ Thumbs.db
 .env
 .env.local
 
-# Downloaded image mapping files (if they're generated/rotated)
-image-mapping-*.txt
-
 # Temporary authentication scripts (as seen in restore-images-microk8s-aliyun.sh)
 /tmp/configure_auth.sh
 

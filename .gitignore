@@ -1,0 +1,52 @@
+# Temporary files
+*.tmp
+*.log
+*~
+.DS_Store
+Thumbs.db
+
+# Snap packages (if working with local snap development)
+*.snap
+
+# Vim/Neovim temporary files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files (if any)
+.env
+.env.local
+
+# Downloaded image mapping files (if they're generated/rotated)
+image-mapping-*.txt
+
+# Temporary authentication scripts (as seen in restore-images-microk8s-aliyun.sh)
+/tmp/configure_auth.sh
+
+# Local IDE configurations
+.vscode/
+.idea/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build artifacts (if applicable)
+dist/
+build/
+
+# Any kubeconfig files that might contain sensitive information
+kubeconfig
+*.kubeconfig
+
+# History files
+.history

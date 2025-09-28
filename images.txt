@@ -1,0 +1,30 @@
+# MicroK8s 核心镜像
+registry.k8s.io/pause:3.9
+registry.k8s.io/pause:3.10
+registry.k8s.io/metrics-server/metrics-server:v0.6.3
+registry.k8s.io/metrics-server/metrics-server:v0.7.1
+
+# Calico 网络插件
+docker.io/calico/cni:v3.27.2
+docker.io/calico/cni:v3.28.1
+docker.io/calico/node:v3.27.2
+docker.io/calico/node:v3.28.1
+docker.io/calico/kube-controllers:v3.27.2
+docker.io/calico/kube-controllers:v3.28.1
+
+# CoreDNS
+docker.io/coredns/coredns:1.10.1
+
+# Dashboard
+docker.io/kubernetesui/dashboard:v2.7.0
+docker.io/kubernetesui/metrics-scraper:v1.0.9
+docker.io/kubernetesui/metrics-scraper:v1.0.8
+
+# 存储插件
+docker.io/k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+
+# 常用应用镜像
+docker.io/nginx:1.25
+docker.io/redis:7.2
+docker.io/mysql:8.0
+docker.io/postgres:15
